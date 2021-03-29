@@ -1,0 +1,19 @@
+package OOP;
+
+public class Sheep {
+	void printSize() {//properties of sheep
+		int height = 117, width = 91, length = 127;
+		System.out.println("Height: " + height + "cm");
+		System.out.println("Width: " + width + "cm");
+		System.out.println("Length: " + length + "cm");		
+	}
+	
+	String colour = "White";
+	
+	//methods/behaviours in Sheep
+	double milk = 1.89;
+	int wool = 25;
+	int born = 3;
+	
+
+}
