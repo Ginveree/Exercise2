@@ -1,0 +1,22 @@
+package OOP;
+
+public class Pencil {
+	//properties of pencil
+	String type = "Colored pencil";
+	int size = 19;
+	String brand = "Faber-Castell";
+	
+	//methods/behaviours in Pencil
+	void printDrawing() {
+		System.out.println("1. Drawing");
+	}
+	
+	void printSketching() {
+	    System.out.println("2. Sketching");
+	 }
+	 
+    void printWriting() {
+	    System.out.println("3. Writing");	 
+	 }
+
+}
